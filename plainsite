@@ -23,9 +23,6 @@ if      (command === 'embed') embed(imagePath, argv[4])
 else if (command === 'fetch') console.log(fetch(imagePath))
 
 
-
-
-
 function embed(imagePath, dataPath) {
   const image_raw = fs.readFileSync(imagePath).toString('binary')
   const data_raw  = fs.readFileSync(dataPath)

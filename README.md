@@ -1,6 +1,6 @@
-# Plain site (working title)
+# plainsite
 
-CLI tool to embed arbitrary data inside a JPEG file.
+Quick POC of CLI tool to embed arbitrary data inside a JPEG file.
 
 ## Getting Started
 
@@ -12,9 +12,9 @@ This is test data
 Testing using data
 Data-driven testing :)
 
-➔ ./freeStorage embed img_orig.jpg testdata
+➔ ./plainsite embed img_orig.jpg testdata
 
-➔ ./freeStorage fetch testdata_embedded_in_img_orig.jpg
+➔ ./plainsite fetch testdata_embedded_in_img_orig.jpg
 This is test data
 Testing using data
 Data-driven testing :)
