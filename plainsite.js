@@ -19,8 +19,8 @@ if (
 
 const imagePath = argv[3]
 
-if      (command === 'embed') embed(imagePath, argv[4])
-else if (command === 'fetch') console.log(fetch(imagePath))
+command === 'embed' && embed(imagePath, argv[4])
+command === 'fetch' && console.log(fetch(imagePath))
 
 
 function embed(imagePath, dataPath) {
