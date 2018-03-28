@@ -1,0 +1,12 @@
+{
+  "name": "plainsite",
+  "version": "0.1.0",
+  "description": "Embed text into an image",
+  "main": "plainsite.js",
+  "repository": "https://github.com/jeffhuys/plainsite.git",
+  "author": "Jeff Huys <jeffhuys@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "plainsite": "./plainsite.js"
+  }
+}
